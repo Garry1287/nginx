@@ -19,7 +19,7 @@ Server IP: 161.35.209.115, root password: rkwayddolksl, base_domain: f357ef338d8
 
 upstream backend {
   server 127.0.0.1:81;
-  server 127.0.0.1.82;
+  server 127.0.0.1:82;
 
 }
 

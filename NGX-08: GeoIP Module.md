@@ -30,7 +30,12 @@ root@66c6d472a13c2254c3fa3e76a898dffd:~# apt install libnginx-mod-http-geoip
 
 
 
+http {
+  geoip_country         /usr/share/GeoIP/GeoIP.dat;
 
+  ... skipped ...
+
+}
 
 
     	##
